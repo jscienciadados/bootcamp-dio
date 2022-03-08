@@ -1,0 +1,75 @@
+Manipulando arquivos
+Editores de Texto
+Vi
+Nano 
+Vim
+Gedit
+
+visualizar o conteudo do arquivo
+cat seguido do nome do arquivo
+ex:. cat teste.txt
+
+Inverter as linhas do arquivo
+tac [nome arquivo]
+head -> exibe as 10 primeira linhas do arquivo
+tail -> mostra as ultimas 10 linhas
+
+Comando de redirecionamentos
+> 
+>>
+|
+& -> gera 2 saidas (linhas)
+&& -> uma unica saida
+mkdir linux && cd linux -> cria a pasta e exibe a mesma
+tail teste.txt > distros.txt
+
+cal -> exibe o calendario
+cal > calendario_fev.txt
+
+adicionando conteudo a um arquivo
+date >> calendario_fev.txt
+date -> exibe a data atual
+grep -> faz uma busca dentro de um determinado texto
+tail distros.txt | grep linux
+
+Paginação de Textos
+more
+cat teste.txt | more
+cat teste.txt | less
+
+file -> tras o tipo do arquivo
+whatis -> exibe o que um determinado arquivo faz (realiza)
+find -> tras o caminho do arquivo 
+find ~ -name teste.txt
+
+Diretorio do Linux
+/ -> raiz
+/bin/ -> executaveis
+/boot/ -> sistema de boot do S.O
+/dev/ -> dispositivos
+/etc/ -> configuração do S.O
+/mnt/ -> diretorio de montagem de dispositivos
+/opt/ -> sistema nao oficial
+/sbin/ -> armazena arquivos executaveis
+/usr/ -> usuarios comuns
+/var/ -> arquivos com variaveis do sistema
+
+comando de sistema
+lspci -> mostra todos os hardwares pci
+lsusb
+arch -> mostra a arquitetura do sistema
+uname -> nome do kernel
+uname -r -> mostra a versao
+free -> memoria do sistema
+du -h -> mostra quantidade do hd utilizada pelo diretorio pessoal
+cat /etc/passwd -> mostra todos os usuarios do sistema
+reboot -> reinicia o sistema
+shutdown -h now -> desliga a maquina
+lscpu -> mostra informações sobre a cpu
+lshw -short -> caminho de hardware
+
+
+
+
+
+

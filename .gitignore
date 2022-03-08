@@ -1,0 +1,125 @@
+# Editores
+.vscode /
+.ideia /
+
+# Vagante
+.vagrant /
+
+# Mac/OSX
+.DS_Store
+
+#janelas _
+Thumbs.db
+
+# Fonte para as seguintes regras: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+# Arquivos compilados por byte / otimizados / DLL
+__pycache__ /
+* .py [ cod ]
+* $py.class
+
+# Extensões C
+* .so
+
+# Distribuição/embalagem
+.Pitão
+construir /
+desenvolver-ovos /
+dist . /
+downloads /
+ovos /
+.ovos /
+lib /
+lib64 /
+peças /
+sdist /
+var /
+rodas /
+* .egg-info /
+.instalado.cfg
+* .egg
+MANIFESTO
+
+# PyInstaller
+#   Normalmente esses arquivos são escritos por um script python de um template
+#   antes que o PyInstaller construa o exe, para injetar data/outras informações nele.
+* .manifesto
+* .spec
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Teste de unidade / relatórios de cobertura
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura. *
+.cache
+nariztests.xml
+cobertura.xml
+* .cover
+.hipótese /
+.pytest_cache /
+
+# Traduções
+* .mo
+* .pot
+
+# Coisas do Django:
+* .log
+local_settings.py
+db.sqlite3
+
+# Material do frasco:
+instância /
+.webassets-cache
+
+# Coisas de scrap:
+.scrapy
+
+# Documentação da esfinge
+docs / _build /
+
+#PyBuilder _
+alvo /
+
+# Notebook Jupyter
+.ipynb_checkpoints
+
+#IPython _
+profile_default /
+ipython_config.py
+
+#pyenv _
+.python-version
+
+# arquivo de programação de batida de aipo
+aipo-schedule
+
+# Arquivos analisados ??pelo SageMath
+* .sage.py
+
+# Ambientes
+.env
+.venv
+ambiente /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Configurações do projeto Spyder
+.spyderproject
+.spyproject
+
+# Configurações do projeto de corda
+.ropeproject
+
+# documentação do mkdocs
+/ local
+
+#mypy _
+.mypy_cache /
+.dmypy.json
+dmypy.json
